@@ -1,0 +1,65 @@
+body {
+    background-color: #141414;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#A {
+    background-color: #141414;
+    outline: none;
+    border: solid 4px white;
+    border-radius: 15px;
+    text-align: center;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    transition-duration: 125ms;
+}
+#A:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    transition-duration: 125ms;
+    font-size: 22px;
+}
+#A:active {
+    color: white;
+    background-color: black;
+    transition-duration: 175ms;
+    border-radius: 16px;
+    font-size: 19px;
+}
+.Points {
+    font-size: 20px;
+    display: block;
+    font: bold;
+}
+.y {
+    margin-left: 500px;
+}
+#C {
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+#U {
+    color: lime;
+    display: inline-block;
+    margin-left: 20px;
+}
+#R {
+    color: rgb(0, 102, 255);
+    display: inline-block;
+    margin-left: 20px;
+}
+#E {
+    color: rgb(182, 0, 182);
+    display: inline-block;
+    margin-left: 20px;
+}
+#L {
+    color: goldenrod;
+    display: inline-block;
+    margin-left: 20px;
+}
